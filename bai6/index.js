@@ -1,3 +1,5 @@
+//2625. Flatten Deeply Nested Array
+
 var flat = function (arr, n) {
     const result = []
 
