@@ -1,8 +1,20 @@
-const arr = []
+function test (){
+    let val = 12
+    return function (input){
+        if(input){
+            val = input
+            return val
+        }
+        return val
+    }
+}
 
-arr.push(1)
-arr.push(2)
 
-arr.pop()
 
-console.log(arr)
+const foo = test()
+
+const bar= test()
+
+
+console.log(foo(1))
+console.log(bar(0))
